@@ -18,10 +18,8 @@ git  branch -d <branch name> will delete a branch
 
 git remote add origin <url> will set an online repo location that you can push your local repo changes to
 git push -u origin master will push all changes in your master branch
-
 '''
 
-print("Hello World")
-print("Goodbye")
+first, last = input("What's your name? ").split(' ')
 
-print("Welcome back!")
+print("Hello, ", first)
