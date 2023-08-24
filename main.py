@@ -4,15 +4,20 @@ user.name to change a "username"
 user.email to change an "email"
 
 git init will initialize a new git repository
-git status will return the your branch status
+git status will return the your status
 git add . will add all commits to the added queue
 git commit will commit all queued commits
 git log will return all commitments and a time log 
 
 git branch will return all branch names
-git checkout (branch name) will switch your working branch
-
+git branch <new branch name> will create a new branch
+git checkout <branch name> will switch your working branch
+You can also use the -b flag after checkout to create and switch to a branch at the same time
+git merge <branch name> will merge the provided branch with your current branch
+git  branch -d <branch name> will delete a branch
 '''
 
 print("Hello World")
 print("Goodbye")
+
+print("Welcome back!")
