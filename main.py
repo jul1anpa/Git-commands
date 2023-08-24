@@ -15,6 +15,10 @@ git checkout <branch name> will switch your working branch
 You can also use the -b flag after checkout to create and switch to a branch at the same time
 git merge <branch name> will merge the provided branch with your current branch
 git  branch -d <branch name> will delete a branch
+
+git remote add origin <url> will set an online repo location that you can push your local repo changes to
+git push -u origin master will push all changes in your master branch
+
 '''
 
 print("Hello World")
